@@ -10,7 +10,7 @@
 
 ## Short description
 Quiller is a software designed for self service cash registers in supermarket. It was created as the final assignment for Implementation Techniqes classes at uni.
-The whole programm has robust documentation attached in the project files, but only fragment off all functionalities is implemented.
+The whole programm has robust documentation attached in the project files, but only fragment off all functionalities is implemented. Serialization instead of database.
 
 ```diff
 - WARNING!
