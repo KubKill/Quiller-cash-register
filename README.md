@@ -21,7 +21,7 @@ The code in the project needs serious refactoring:
 
 To check my newest project (with better quality code) open the [Battle-Arena repository](https://github.com/KubKill/Battle-Arena).
 
-To check **full documentation** to the current project [click here](). (Or open...)
+To check **full documentation** to the current project [click here](Projekt_s18482.pdf). (Or open Projekt_s18482.pdf)
 
 ## Technologies
 * Java 17
