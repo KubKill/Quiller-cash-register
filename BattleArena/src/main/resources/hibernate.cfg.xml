@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost/game</property>
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="connection.username">user</property>
+        <property name="connection.password">user</property>
+        <property name="connection.pool_size">3</property>
+        <property name="current_session_context_class">thread</property>
+        <property name="show_sql">false</property>
+        <property name="format_sql">true</property>
+<!--        This updates database schema every time there are changes. -->
+        <property name="hbm2ddl.auto">create</property>
+
+
+        <mapping class="model.items.Item"/>
+        <mapping class="model.items.Weapon"/>
+        <mapping class="model.usefull.Range"/>
+        <mapping class="model.bag.Bag"/>
+        <mapping class="model.avatar.Avatar"/>
+        <mapping class="model.fight.Fight"/>
+        <mapping class="model.guild.Guild"/>
+        <mapping class="model.guild.Crest"/>
+
+    </session-factory>
+</hibernate-configuration>
